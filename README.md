@@ -22,6 +22,14 @@ To run the test suite, you can just run:
 go test
 ```
 
+**Running the docs**
+
+To understand more about these libraries, you can open the docs by running command:
+
+```
+godoc -http=:6060
+```
+
 ## Author
 
 #### **Alexander Jack Hughes**
