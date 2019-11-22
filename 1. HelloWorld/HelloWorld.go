@@ -29,12 +29,12 @@ func greeting(language string) (prefix string) {
 	return
 }
 
-// Hello prints "hello" to the world or a user, and is language agnostic.
+// Hello prints "hello" to the world or a specificed name,
+// and also allows you to specifc the language.
 func Hello(name string, language string) string {
 	if name == "" {
 		name = "world"
 	}
-
 	return greeting(language) + name
 }
 
