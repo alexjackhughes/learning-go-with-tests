@@ -7,7 +7,7 @@ func TestHello(t *testing.T) {
 		t.Helper()
 
 		if got != want {
-			t.Errorf("got %q want %q", got, want)
+			t.Errorf("expected %q but got %q", want, got)
 		}
 	}
 

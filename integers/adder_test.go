@@ -10,7 +10,7 @@ func TestAdder(t *testing.T) {
 		t.Helper()
 
 		if got != want {
-			t.Errorf("Expected %d but we received %d.", want, got)
+			t.Errorf("expected %q but got %q", want, got)
 		}
 	}
 
