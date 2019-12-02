@@ -1,7 +1,6 @@
-package main
+package shapes
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -61,8 +60,4 @@ func (c Circle) Perimeter() float64 {
 // area of the circle.
 func (c Circle) Area() float64 {
 	return math.Pi * (c.Radius * c.Radius)
-}
-
-func main() {
-	fmt.Println(Rectangle{10.0, 10.0}.Perimeter())
 }
